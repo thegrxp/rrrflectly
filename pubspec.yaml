@@ -1,0 +1,52 @@
+name: rrrflectly
+description: A new Flutter project.
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.15.0-268.18.beta <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  # A wrapper around InheritedWidget to make them easier to use and more reusable.
+  provider: ^6.0.2
+  # Simple direct Service Locator.
+  get_it: ^7.2.0
+  # Functional Programming in Dart. Purify your Dart code using efficient immutable data
+  # structures, monads, lenses and other FP tools.
+  dartz: ^0.10.1
+  # A composable, multi-platform, Future-based API for HTTP requests.
+  http: ^0.13.4
+  # Render After Effects animations natively on Flutter. This package is a pure Dart
+  # implementation of a Lottie player.
+  lottie: ^1.2.1
+  # Enables you to display a child after a delay and with fading and sliding animation.
+  delayed_display: ^2.0.0
+  # Flutter plugin for reading and writing simple key-value pairs.
+  # Wraps NSUserDefaults on iOS and SharedPreferences on Android.
+  shared_preferences: ^2.0.12
+  # Flutter plugin for discovering the state of the network (WiFi & mobile/cellular)
+  # connectivity on Android and iOS.
+  connectivity_plus: ^2.1.0
+
+  mockito: ^5.0.17
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^1.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  build_runner: ^2.1.7
+
+  flutter_lints: ^1.0.0
+
+# The following section is specific to Flutter.
+flutter:
+  assets:
+    - assets/animations/
+  uses-material-design: true
